@@ -32,8 +32,8 @@ try:
 except:
     import simplejson as json
 
-APRSFI_API_URL = "http://aprs.fi/api/get"
-VERSION = "0.0.1"
+APRSFI_API_URL = "http://api.aprs.fi/api/get"
+VERSION = "0.0.2"
 
 class MissingRequiredArgument(Exception):
     """Raised when a required parameter is missing."""
